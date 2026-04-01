@@ -1,0 +1,42 @@
+/* App.css for Grocery Tracker */
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
